@@ -1,0 +1,32 @@
+In order to compile these mex-files, you will need a fortran compiler.
+Most of the testing I've done was with g95, although gfortran seems
+to work as well.  In order to compile on, say, R2009b, you will
+need to look at the bottom of the mexopts.R2009b.sh options file
+and see if there is a stanza for your architecture and fortran
+compiler.  If you don't find an exact match, take a look at other
+options files.  
+
+In any case, you need to make sure values are provided for FC, LD,
+FCLIBDIR, and FLIBS, although LD should pretty much always be "g++".
+FC is the location of your fortran compiler, and FCLIBDIR is the
+location of fortran libraries, which will be different depending
+of whether you use g95 or gfortran, and what platform you are on.
+For example, on the R2007b maci platform with g95 provided by fink,
+the library is /sw/lib/libg95 (yes, thats "libg95", not "libf95"),
+while on R2009b maci64 with g95 provided by macports, the library
+is /opt/local/lib/libf95. The compile step is as simple as typing
+"make R2009b"
+
+Tested configurations include:
+	
+	glnxa64 (g95):  R2007b, R2008b, R2009a, R2009b
+
+	glnx86 (g95):  R2007b
+
+	maci (g95):  R2007b, R2008b
+
+	maci (gfortran):  R2007b, R2008b
+
+	maci64 (g95): R2009b
+
+

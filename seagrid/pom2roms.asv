@@ -1,0 +1,9 @@
+uri='c:\rps\cf\glos\e200912706.out1.nc';
+nc=mDataset(uri);
+lon=nc{'lon'}(:);
+lat=nc{'lat'}(:);
+depth=nc{'depth'}(:);
+close(nc);
+
+depth(depth==0)=nan;
+s.

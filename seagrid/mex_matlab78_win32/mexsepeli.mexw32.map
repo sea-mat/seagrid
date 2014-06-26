@@ -1,0 +1,225 @@
+ mexsepeli
+
+ Timestamp is 4a40ea96 (Tue Jun 23 10:45:42 2009)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000bbfcH .text                   CODE
+ 0002:00000000 000000c4H .idata$5                DATA
+ 0002:000000c4 00000004H .CRT$XCA                DATA
+ 0002:000000c8 00000004H .CRT$XCZ                DATA
+ 0002:000000cc 00000004H .CRT$XIA                DATA
+ 0002:000000d0 00000004H .CRT$XIAA               DATA
+ 0002:000000d4 00000004H .CRT$XIZ                DATA
+ 0002:000000e0 0000077cH .rdata                  DATA
+ 0002:0000085c 00000004H .rtc$IAA                DATA
+ 0002:00000860 00000004H .rtc$IZZ                DATA
+ 0002:00000864 00000004H .rtc$TAA                DATA
+ 0002:00000868 00000004H .rtc$TZZ                DATA
+ 0002:00000870 00000064H .xdata$x                DATA
+ 0002:000008d4 00000078H .idata$2                DATA
+ 0002:0000094c 00000014H .idata$3                DATA
+ 0002:00000960 000000c4H .idata$4                DATA
+ 0002:00000a24 0000034cH .idata$6                DATA
+ 0002:00000d70 0000004fH .edata                  DATA
+ 0003:00000000 00000020H .data                   DATA
+ 0003:00000020 08e4ba78H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _MEXFUNCTION               10001000 f   mexsepeli.obj
+ 0001:00000b78       _SEPELI                    10001b78 f   mexsepeli.obj
+ 0001:00000b84       _SEPELI.                   10001b84 f   mexsepeli.obj
+ 0001:00000f68       _CHKPRM                    10001f68 f   mexsepeli.obj
+ 0001:00000f74       _CHKPRM.                   10001f74 f   mexsepeli.obj
+ 0001:00001210       _COFX                      10002210 f   mexsepeli.obj
+ 0001:0000121c       _COFX.                     1000221c f   mexsepeli.obj
+ 0001:000012c6       _COFY                      100022c6 f   mexsepeli.obj
+ 0001:000012d2       _COFY.                     100022d2 f   mexsepeli.obj
+ 0001:0000137c       _SPELIP                    1000237c f   mexsepeli.obj
+ 0001:00001388       _SPELIP.                   10002388 f   mexsepeli.obj
+ 0001:000029a4       _SEPORT                    100039a4 f   mexsepeli.obj
+ 0001:000029b0       _SEPORT.                   100039b0 f   mexsepeli.obj
+ 0001:00002bde       _BLKTRI                    10003bde f   mexsepeli.obj
+ 0001:00002bea       _BLKTRI.                   10003bea f   mexsepeli.obj
+ 0001:00002f88       _BLKTR1                    10003f88 f   mexsepeli.obj
+ 0001:00002f94       _BLKTR1.                   10003f94 f   mexsepeli.obj
+ 0001:000059be       _PRODP                     100069be f   mexsepeli.obj
+ 0001:000059ca       _PRODP.                    100069ca f   mexsepeli.obj
+ 0001:00005e58       _PROD                      10006e58 f   mexsepeli.obj
+ 0001:00005e64       _PROD.                     10006e64 f   mexsepeli.obj
+ 0001:000061fa       _INDXB                     100071fa f   mexsepeli.obj
+ 0001:00006206       _INDXB.                    10007206 f   mexsepeli.obj
+ 0001:000062d2       _INDXA                     100072d2 f   mexsepeli.obj
+ 0001:000062de       _INDXA.                    100072de f   mexsepeli.obj
+ 0001:00006320       _INDXC                     10007320 f   mexsepeli.obj
+ 0001:0000632c       _INDXC.                    1000732c f   mexsepeli.obj
+ 0001:0000636c       _CPRODP                    1000736c f   mexsepeli.obj
+ 0001:00006378       _CPRODP.                   10007378 f   mexsepeli.obj
+ 0001:00007140       _CPROD                     10008140 f   mexsepeli.obj
+ 0001:0000714c       _CPROD.                    1000814c f   mexsepeli.obj
+ 0001:0000786c       _COMPB                     1000886c f   mexsepeli.obj
+ 0001:00007878       _COMPB.                    10008878 f   mexsepeli.obj
+ 0001:00007eb4       _TEVLS                     10008eb4 f   mexsepeli.obj
+ 0001:00007ec0       _TEVLS.                    10008ec0 f   mexsepeli.obj
+ 0001:0000837e       _EPMACH                    1000937e f   mexsepeli.obj
+ 0001:00008382       _EPMACH.                   10009382 f   mexsepeli.obj
+ 0001:000083e4       _STORE                     100093e4 f   mexsepeli.obj
+ 0001:000083e8       _STORE.                    100093e8 f   mexsepeli.obj
+ 0001:000083f2       _PPADD                     100093f2 f   mexsepeli.obj
+ 0001:000083fe       _PPADD.                    100093fe f   mexsepeli.obj
+ 0001:000099d4       _PPSPF                     1000a9d4 f   mexsepeli.obj
+ 0001:000099e0       _PPSPF.                    1000a9e0 f   mexsepeli.obj
+ 0001:00009a18       _PSGF                      1000aa18 f   mexsepeli.obj
+ 0001:00009a24       _PSGF.                     1000aa24 f   mexsepeli.obj
+ 0001:00009a9a       _PPSGF                     1000aa9a f   mexsepeli.obj
+ 0001:00009aa6       _PPSGF.                    1000aaa6 f   mexsepeli.obj
+ 0001:00009adc       _SEPMIN                    1000aadc f   mexsepeli.obj
+ 0001:00009ae8       _SEPMIN.                   1000aae8 f   mexsepeli.obj
+ 0001:00009d14       _DEFER                     1000ad14 f   mexsepeli.obj
+ 0001:00009d20       _DEFER.                    1000ad20 f   mexsepeli.obj
+ 0001:0000a25a       _SEPDX                     1000b25a f   mexsepeli.obj
+ 0001:0000a266       _SEPDX.                    1000b266 f   mexsepeli.obj
+ 0001:0000a8ec       _SEPDY                     1000b8ec f   mexsepeli.obj
+ 0001:0000a8f8       _SEPDY.                    1000b8f8 f   mexsepeli.obj
+ 0001:0000af3c       _SEPTRI                    1000bf3c f   mexsepeli.obj
+ 0001:0000af48       _SEPTRI.                   1000bf48 f   mexsepeli.obj
+ 0001:0000b050       _CHKSNG                    1000c050 f   mexsepeli.obj
+ 0001:0000b05c       _CHKSNG.                   1000c05c f   mexsepeli.obj
+ 0001:0000b292       _BSRH                      1000c292 f   mexsepeli.obj
+ 0001:0000b38c       _MXISNUMERIC               1000c38c f   libmx:libmx.dll
+ 0001:0000b392       _MXGETM700                 1000c392 f   libmx:libmx.dll
+ 0001:0000b398       _MXGETN700                 1000c398 f   libmx:libmx.dll
+ 0001:0000b39e       _MXGETPR                   1000c39e f   libmx:libmx.dll
+ 0001:0000b3a4       _MXCOPYPTRTOREAL8700       1000c3a4 f   libmx:libmx.dll
+ 0001:0000b3aa       _MXCREATEDOUBLEMATRIX700   1000c3aa f   libmx:libmx.dll
+ 0001:0000b3b0       _MXCOPYREAL8TOPTR700       1000c3b0 f   libmx:libmx.dll
+ 0001:0000b3b6       _MEXERRMSGTXT              1000c3b6 f   libmex:libmex.dll
+ 0001:0000b3bc       _f_ldnint_val              1000c3bc f   libifcoremd:libifcoremd.dll
+ 0001:0000b3c2       _log                       1000c3c2 f   libmmd:libmmd.dll
+ 0001:0000b3c8       ___powr8i4                 1000c3c8 f   libmmd:libmmd.dll
+ 0001:0000b3ce       _csqrt                     1000c3ce f   libmmd:libmmd.dll
+ 0001:0000b42d       __CRT_INIT@12              1000c42d f   MSVCRT:crtdll.obj
+ 0001:0000b706       __DllMainCRTStartup@12     1000c706 f   MSVCRT:crtdll.obj
+ 0001:0000b727       ___clean_type_info_names   1000c727 f   MSVCRT:tncleanup.obj
+ 0001:0000b733       __onexit                   1000c733 f   MSVCRT:atonexit.obj
+ 0001:0000b7d8       _atexit                    1000c7d8 f   MSVCRT:atonexit.obj
+ 0001:0000b7ea       __RTC_Initialize           1000c7ea f   MSVCRT:initsect.obj
+ 0001:0000b80e       __RTC_Terminate            1000c80e f   MSVCRT:initsect.obj
+ 0001:0000b840       __ValidateImageBase        1000c840 f   MSVCRT:pesect.obj
+ 0001:0000b870       __FindPESection            1000c870 f   MSVCRT:pesect.obj
+ 0001:0000b8c0       __IsNonwritableInCurrentImage 1000c8c0 f   MSVCRT:pesect.obj
+ 0001:0000b97c       __initterm                 1000c97c f   MSVCRT:MSVCR80.dll
+ 0001:0000b982       __initterm_e               1000c982 f   MSVCRT:MSVCR80.dll
+ 0001:0000b988       __amsg_exit                1000c988 f   MSVCRT:MSVCR80.dll
+ 0001:0000b98e       ___CppXcptFilter           1000c98e f   MSVCRT:MSVCR80.dll
+ 0001:0000b994       _DllMain@12                1000c994 f   MSVCRT:dllmain.obj
+ 0001:0000b9b4       __SEH_prolog4              1000c9b4 f   MSVCRT:sehprolg4.obj
+ 0001:0000b9f9       __SEH_epilog4              1000c9f9 f   MSVCRT:sehprolg4.obj
+ 0001:0000ba0d       __except_handler4          1000ca0d f   MSVCRT:chandler4gs.obj
+ 0001:0000ba30       ___security_init_cookie    1000ca30 f   MSVCRT:gs_support.obj
+ 0001:0000bac4       ___clean_type_info_names_internal 1000cac4 f   MSVCRT:MSVCR80.dll
+ 0001:0000baca       __unlock                   1000caca f   MSVCRT:MSVCR80.dll
+ 0001:0000bad0       ___dllonexit               1000cad0 f   MSVCRT:MSVCR80.dll
+ 0001:0000bad6       __lock                     1000cad6 f   MSVCRT:MSVCR80.dll
+ 0001:0000badc       @__security_check_cookie@4 1000cadc f   MSVCRT:secchk.obj
+ 0001:0000baec       __except_handler4_common   1000caec f   MSVCRT:MSVCR80.dll
+ 0001:0000baf2       ___report_gsfailure        1000caf2 f   MSVCRT:gs_report.obj
+ 0001:0000bbf6       __crt_debugger_hook        1000cbf6 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__IsDebuggerPresent@0 1000d000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__SetUnhandledExceptionFilter@4 1000d004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__UnhandledExceptionFilter@4 1000d008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetCurrentProcess@0 1000d00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__TerminateProcess@8  1000d010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetSystemTimeAsFileTime@4 1000d014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentProcessId@0 1000d018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetCurrentThreadId@0 1000d01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetTickCount@0      1000d020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__QueryPerformanceCounter@4 1000d024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__DisableThreadLibraryCalls@4 1000d028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__InterlockedCompareExchange@12 1000d02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__Sleep@4             1000d030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__InterlockedExchange@8 1000d034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 1000d038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp___crt_debugger_hook  1000d03c     MSVCRT:MSVCR80.dll
+ 0002:00000040       __imp___encode_pointer     1000d040     MSVCRT:MSVCR80.dll
+ 0002:00000044       __imp___malloc_crt         1000d044     MSVCRT:MSVCR80.dll
+ 0002:00000048       __imp__free                1000d048     MSVCRT:MSVCR80.dll
+ 0002:0000004c       __imp___encoded_null       1000d04c     MSVCRT:MSVCR80.dll
+ 0002:00000050       __imp___decode_pointer     1000d050     MSVCRT:MSVCR80.dll
+ 0002:00000054       __imp___initterm           1000d054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp___initterm_e         1000d058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp___amsg_exit          1000d05c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp___adjust_fdiv        1000d060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp____CppXcptFilter     1000d064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp____clean_type_info_names_internal 1000d068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp___unlock             1000d06c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp____dllonexit         1000d070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp___lock               1000d074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___onexit             1000d078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp___except_handler4_common 1000d07c     MSVCRT:MSVCR80.dll
+ 0002:00000080       \177MSVCR80_NULL_THUNK_DATA 1000d080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp__f_ldnint_val        1000d084     libifcoremd:libifcoremd.dll
+ 0002:00000088       \177libifcoremd_NULL_THUNK_DATA 1000d088     libifcoremd:libifcoremd.dll
+ 0002:0000008c       __imp__MEXERRMSGTXT        1000d08c     libmex:libmex.dll
+ 0002:00000090       \177libmex_NULL_THUNK_DATA 1000d090     libmex:libmex.dll
+ 0002:00000094       __imp__log                 1000d094     libmmd:libmmd.dll
+ 0002:00000098       __imp____powr8i4           1000d098     libmmd:libmmd.dll
+ 0002:0000009c       __imp__csqrt               1000d09c     libmmd:libmmd.dll
+ 0002:000000a0       \177libmmd_NULL_THUNK_DATA 1000d0a0     libmmd:libmmd.dll
+ 0002:000000a4       __imp__MXCOPYREAL8TOPTR700 1000d0a4     libmx:libmx.dll
+ 0002:000000a8       __imp__MXCREATEDOUBLEMATRIX700 1000d0a8     libmx:libmx.dll
+ 0002:000000ac       __imp__MXCOPYPTRTOREAL8700 1000d0ac     libmx:libmx.dll
+ 0002:000000b0       __imp__MXGETPR             1000d0b0     libmx:libmx.dll
+ 0002:000000b4       __imp__MXGETN700           1000d0b4     libmx:libmx.dll
+ 0002:000000b8       __imp__MXGETM700           1000d0b8     libmx:libmx.dll
+ 0002:000000bc       __imp__MXISNUMERIC         1000d0bc     libmx:libmx.dll
+ 0002:000000c0       \177libmx_NULL_THUNK_DATA  1000d0c0     libmx:libmx.dll
+ 0002:000000c4       ___xc_a                    1000d0c4     MSVCRT:cinitexe.obj
+ 0002:000000c8       ___xc_z                    1000d0c8     MSVCRT:cinitexe.obj
+ 0002:000000cc       ___xi_a                    1000d0cc     MSVCRT:cinitexe.obj
+ 0002:000000d4       ___xi_z                    1000d0d4     MSVCRT:cinitexe.obj
+ 0002:00000850       __pDefaultRawDllMain       1000d850     MSVCRT:crtdll.obj
+ 0002:00000850       __pRawDllMain              1000d850     MSVCRT:crtdll.obj
+ 0002:0000085c       ___rtc_iaa                 1000d85c     MSVCRT:initsect.obj
+ 0002:00000860       ___rtc_izz                 1000d860     MSVCRT:initsect.obj
+ 0002:00000864       ___rtc_taa                 1000d864     MSVCRT:initsect.obj
+ 0002:00000868       ___rtc_tzz                 1000d868     MSVCRT:initsect.obj
+ 0002:000008d4       __IMPORT_DESCRIPTOR_libmx  1000d8d4     libmx:libmx.dll
+ 0002:000008e8       __IMPORT_DESCRIPTOR_libmex 1000d8e8     libmex:libmex.dll
+ 0002:000008fc       __IMPORT_DESCRIPTOR_libifcoremd 1000d8fc     libifcoremd:libifcoremd.dll
+ 0002:00000910       __IMPORT_DESCRIPTOR_libmmd 1000d910     libmmd:libmmd.dll
+ 0002:00000924       __IMPORT_DESCRIPTOR_MSVCR80 1000d924     MSVCRT:MSVCR80.dll
+ 0002:00000938       __IMPORT_DESCRIPTOR_KERNEL32 1000d938     kernel32:KERNEL32.dll
+ 0002:0000094c       __NULL_IMPORT_DESCRIPTOR   1000d94c     libmx:libmx.dll
+ 0003:00000010       ___native_dllmain_reason   1000e010     MSVCRT:natstart.obj
+ 0003:00000014       ___native_vcclrit_reason   1000e014     MSVCRT:natstart.obj
+ 0003:00000018       ___security_cookie         1000e018     MSVCRT:gs_cookie.obj
+ 0003:0000001c       ___security_cookie_complement 1000e01c     MSVCRT:gs_cookie.obj
+ 0003:0271c864       __forceCRTManifest         1272a864     MSVCRT:crtmanifest.obj
+ 0003:0271c868       ?__type_info_root_node@@3U__type_info_node@@A 1272a868     MSVCRT:tncleanup.obj
+ 0003:0271cba0       _VALUE                     1272aba0     <common>
+ 0003:0271cbc0       _CBLKT                     1272abc0     <common>
+ 0003:0271cc00       _SPLP                      1272ac00     <common>
+ 0003:0271cc80       _NODES                     1272ac80     <common>
+ 0003:027525c0       _ZEROS                     127605c0     <common>
+ 0003:08e4ba80       __adjust_fdiv              18e59a80     <common>
+ 0003:08e4ba84       ___native_startup_state    18e59a84     <common>
+ 0003:08e4ba88       ___native_startup_lock     18e59a88     <common>
+ 0003:08e4ba8c       ___onexitend               18e59a8c     <common>
+ 0003:08e4ba90       ___onexitbegin             18e59a90     <common>
+ 0003:08e4ba94       ___dyn_tls_init_callback   18e59a94     <common>
+
+ entry point at        0001:0000b706
+
+ Static symbols
+
+ 0001:0000b3e0       _pre_c_init                1000c3e0 f   MSVCRT:crtdll.obj
+ 0001:0000b5f0       ___DllMainCRTStartup       1000c5f0 f   MSVCRT:crtdll.obj
