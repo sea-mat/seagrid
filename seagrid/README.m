@@ -1,22 +1,7 @@
 function README
 
-% ************* Seagrid Download *************
-%
-%    From "crusty.er.usgs.gov/seagrid/", use anonymous ftp
-% to download "seagrid_install.p", "form_install.p", and
-% "proxy_install.p".  Each P-file installer is a Matlab
-% function that creates and populates a directory of the
-% corresponding name.The versions for Matlab 5.0/5.1
-% use ".p50" as the extension.  Also download the "m_map"
-% toolbox of Rick Pawlowicz.  It contains unbundled text
-% and binary files.
-%
-%    Download "amazon_coast.mat" and "amazon_bathy.mat";
-% both are binary Matlab Mat-files.  Put these files in
-% the "seagrid/test_data" directory.
-%
 %    A script called "seagrid_test" can be run to automatically
-% load the test data into SeaGrid.  If it fails, then probably
+% load the supplied test data into SeaGrid.  If it fails, then probably
 % some software is missing, or the Matlab path needs adjustment.
 %
 % ************* Seagrid Tutorial *************
