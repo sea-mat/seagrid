@@ -1,7 +1,9 @@
 seagrid
 =======
 Orthogonal curvilinear grid creator for Matlab
+![seagrid picture](https://github.com/rsignell-usgs/seagrid/blob/master/seagrid.gif)
 SeaGrid is a Matlab 5.2+ application for generating an orthogonal grid within a curved perimeter, suitable for oceanographic modeling.
+
  With SeaGrid, one can:
 
 * Select a conformal map projection.
